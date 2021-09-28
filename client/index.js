@@ -5,7 +5,7 @@ gsap.from(".btn", {
     opacity: 0
 });
 
-Draggable.create(".btn", {type:"x,y", edgeResistance:0.65, bounds:".container", inertia:true});
+Draggable.create(".btn", {type:"x,y", edgeResistance:0.65, bounds:".container"});
 
 let displayText = document.querySelector('.response')
 
