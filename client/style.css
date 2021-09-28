@@ -16,11 +16,15 @@ html {
     opacity: 1;
   }
 
+  body {
+      position: relative;
+  }
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%;
+    height: 200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -45,7 +49,7 @@ button:hover {
 }
 
 .response {
-    height: 30%;
+    height: 200px;
     width: 100%;
     margin: 0 auto;
     position: relative;
