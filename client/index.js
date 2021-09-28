@@ -10,7 +10,7 @@ gsap.from(".btn", {
 let btn = document.querySelector('.btn')
 btn.addEventListener('click', () => {
     axios.get('/api/compliments')
-        .then((req, res) => {
+        .then(res => {
             console.log(res.data)
         })
 })
