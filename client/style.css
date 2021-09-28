@@ -20,8 +20,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 400px;
+    height: 30%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -45,8 +45,8 @@ button:hover {
 }
 
 .response {
-    height: 300px;
-    width: 450px;
+    height: 30%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     bottom: 120px;
